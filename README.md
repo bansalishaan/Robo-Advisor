@@ -3,6 +3,7 @@
 Authors: Piero Camposeo (Lead), Sathun Suthakaran, Ishaan Bansal
 
 Themes: Data Analysis, Capital Markets
+
 Dependencies and Tools / Libraries: Pandas, Numpy, numpy_financial, Matplotlib, datetime, dateutil.relativedelta, threading, YFinance, Queue, random, uniform
 
 Python Data Analysis program created with the goal of generating a portfolio, whose projected value over an arbitrary number of days is as close to its starting value as possible.
