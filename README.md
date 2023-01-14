@@ -11,7 +11,7 @@ Python Data Analysis program created with the goal of generating a portfolio, wh
 
 <b>Achievements:</b>
 
-1. Increased performance times for io bound tasks by up to 800% by implementing multithreading to speed up API requests.
+1. Increased performance times for io-bound tasks by up to 800% by implementing multithreading, queues, and recursion to speed up requests from YFinance API.
     - This project had the fastest data cleaning pipeline of anyone who completed the same project.
 
 2. Generated a portfolio with 47% less volatility compared to a benchmark by creating optimized algorithms to develop accurate predictions and financial analyses.
