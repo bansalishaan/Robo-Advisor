@@ -2,7 +2,7 @@
 
 Authors: Piero Camposeo (Lead), Sathun Suthakaran, Ishaan Bansal
 
-Themes: Data Analysis, Capital Markets, Computational Finance
+Themes: Quantitative Analysis, Computational Finance, Capital Markets
 
 Dependencies and Tools / Libraries: Pandas, Numpy, numpy_financial, Matplotlib, datetime, dateutil.relativedelta, threading, YFinance, Queue, random, uniform, yahooquery
 
