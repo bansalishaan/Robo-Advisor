@@ -1,0 +1,11 @@
+UPDATE (2023-03-02): yfinance is having issues with its 'info' function. We have changed our useage of calling stock info:
+Now using: yahooquery
+
+Method: 
+import yahooquery as yq
+
+desired_field = 'currency'
+tickername = 'aapl'
+
+tickers = yq.Ticker([tickername])
+tickers.summary_detail[tickername][desired_field])
