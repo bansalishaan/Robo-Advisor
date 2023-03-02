@@ -68,5 +68,6 @@ a high weight is disproportionately low compared to the number of generated port
 3. The Monte Carlo simulation is a CPU-heavy task. Since the best_weighting function needs to generate 1 million portfolios, the computer spends most of the runtime crunching numbers. With this being said, multiprocessing may have been preferred for our simulation. Unfortunately, after many efforts, we decided that multiprocessing was beyond our scope of expertise.
     - Suggestion: None
 
-4. The program can be slightly inconsistent, even when provided with the same information many times. This is especially prevalent with the Monte Carlo simulation. Periodically, it will output a portfolio that is noticeably different than the optimal portfolio / what it would normally output.
-    - Suggestion: Having a more efficient system for picking stock weights than a Monte Carlo simulation.
+4. The program can be slightly inconsistent, even when provided with the same information many times. This is especially prevalent with the Monte Carlo simulation. Periodically, it will output a portfolio that is noticeably different than what it would normally output (in terms of stock weighting).
+    - Suggestion: Having a more efficient system for picking stock weights than a Monte Carlo simulation
+    - EDIT (2023-03-02): We have fixed this issue such that it now has minimal effect on portfolio performance
